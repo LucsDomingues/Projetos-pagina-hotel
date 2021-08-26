@@ -1,0 +1,81 @@
+body{
+    background-color: #97abeb;
+}
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.hotel{
+    width: 700px;
+    height: 835px;
+    border: 1px solid rgb(255, 255, 255);
+    margin: 10px auto;
+    padding: 5px 5px;
+}
+.hotel_imagem{
+    width: 100%;
+}
+.hotel_nome{
+    margin: 10px 0px;
+    font-size: 40px;
+    color: #333;
+}
+.hotel_cidade{
+    margin: 10px 0px;
+    font-size: 20px;
+    color: #333;
+}
+.estrela_naopreenchida{
+    color: #ccc;
+}
+.hotel_descricao{
+    margin: 15px 0px;
+    font-size: 15px;
+    text-align: justify;
+    line-height: 20px;
+}
+.hotel_link{
+    text-decoration: none;
+    color: rgb(34, 33, 33);
+    border: 1px solid #333;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 10px;
+    border-radius: 5px;
+    margin: 10px 3px;
+    text-transform: uppercase;
+    font-weight: 600;
+   
+}
+.hotel_link:hover{
+    background-color: #fff;
+    color: #333;
+}
+.redes_sociais{
+    width: 270px;
+    height: 300px;
+    margin: 100px 10px;
+    display: flex;
+    flex-direction:column;
+    justify-content:start;
+    align-items:flex-start;
+}
+.redes_titulo{
+    font-size: 20px;
+    color: #333;
+    padding: 10px 10px;
+    box-sizing: border-box;
+}
+.redes_icone{
+    font-size: 30px;
+    padding: 3px 10px;
+    box-sizing: border-box;
+    border: 2px solid rgba(153, 0, 153, 0);
+}
+.i1{background-color: #333;}
+.i2{background-color: #97abeb;}
+.i3{background-color: #ccc;}
+.i4{background-color: #fff;}
+.i5{background-color: #333;}
